@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Cane Pest Control | Editorial | Encino</title>
+<meta name="description" content="Cane Pest Control concept redesign. Editorial direction." />
+<meta property="og:title" content="Cane Pest Control | Encino" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #F97316;
+  --primary-dark: #EA580C;
+  --ink: #14110F;
+  --cream: #FAF6F0;
+  --warm: #F0E8DB;
+  --line: #D9CEBE;
+  --muted: #7A6F5E;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); background: var(--cream); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+
+.ed-nav { background: var(--cream); border-bottom: 1px solid var(--line); padding: 22px 24px; position: sticky; top: 0; z-index: 50; backdrop-filter: blur(10px); background: rgba(250,246,240,0.92); }
+.ed-nav-inner { max-width: 1160px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.ed-brand { font-family: 'Fraunces', serif; font-weight: 600; letter-spacing: 0.01em; font-size: 22px; }
+.ed-nav-cta { font-family: 'Inter', sans-serif; border: 1px solid var(--ink); color: var(--ink); background: var(--cream); padding: 10px 18px; border-radius: 999px; text-decoration: none; font-size: 14px; font-weight: 500; transition: background 0.25s ease, color 0.25s ease; }
+.ed-nav-cta:hover { background: var(--ink); color: var(--cream); }
+
+.ed-hero { padding: 120px 24px 100px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; background: linear-gradient(180deg, var(--cream) 0%, var(--warm) 100%); }
+.ed-hero::after { content: ''; position: absolute; width: 420px; height: 420px; right: -140px; top: 40px; background: radial-gradient(circle, #F9731633 0%, transparent 70%); filter: blur(30px); border-radius: 50%; pointer-events: none; }
+.ed-hero-inner { max-width: 1160px; margin: 0 auto; position: relative; z-index: 1; display: grid; grid-template-columns: 1fr; gap: 36px; }
+@media (min-width: 880px) { .ed-hero-inner { grid-template-columns: 3fr 2fr; align-items: end; gap: 60px; } }
+.ed-kicker { font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.24em; font-size: 12px; color: var(--muted); margin-bottom: 20px; }
+.ed-h1 { font-family: 'Fraunces', serif; font-size: clamp(44px, 7vw, 88px); line-height: 1.02; font-weight: 600; letter-spacing: -0.02em; margin: 0 0 24px; color: var(--ink); }
+.ed-h1 em { font-style: italic; color: var(--primary-dark); font-weight: 500; }
+.ed-lede { font-family: 'Fraunces', serif; font-size: clamp(19px, 2vw, 24px); line-height: 1.5; color: var(--muted); max-width: 520px; margin: 0; }
+.ed-aside { padding: 28px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px; max-width: 420px; }
+.ed-aside-label { text-transform: uppercase; letter-spacing: 0.24em; font-size: 11px; color: var(--muted); margin-bottom: 12px; }
+.ed-aside-big { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; line-height: 1.3; margin: 0 0 16px; }
+.ed-aside a { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); text-decoration: none; padding: 12px 22px; background: var(--primary); border-radius: 999px; font-weight: 600; transition: transform 0.2s ease, background 0.2s ease; }
+.ed-aside a:hover { transform: translateY(-2px); background: var(--primary-dark); }
+
+.ed-section { padding: 96px 24px; border-bottom: 1px solid var(--line); }
+.ed-container { max-width: 1160px; margin: 0 auto; }
+.ed-section-label { text-transform: uppercase; letter-spacing: 0.24em; font-size: 12px; color: var(--muted); margin-bottom: 16px; }
+.ed-section-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(32px, 4vw, 52px); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 64px; max-width: 760px; }
+
+.ed-services { display: grid; grid-template-columns: 1fr; gap: 0; }
+.ed-service { display: grid; grid-template-columns: 80px 1fr; gap: 32px; padding: 32px 0; border-top: 1px solid var(--line); align-items: start; transition: padding-left 0.3s ease; }
+.ed-service:last-child { border-bottom: 1px solid var(--line); }
+.ed-service:hover { padding-left: 16px; }
+.ed-num { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 400; color: var(--muted); line-height: 1; }
+.ed-body h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 26px; margin: 0 0 10px; letter-spacing: -0.01em; }
+.ed-body p { font-size: 17px; color: var(--muted); margin: 0; max-width: 620px; }
+
+.ed-testimonial { background: var(--warm); text-align: center; }
+.ed-quote { max-width: 760px; margin: 0 auto; padding: 20px; }
+.ed-stars { font-size: 22px; letter-spacing: 4px; color: var(--primary-dark); margin-bottom: 24px; }
+.ed-quote blockquote { font-family: 'Fraunces', serif; font-weight: 400; font-style: italic; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.25; margin: 0 0 20px; color: var(--ink); }
+.ed-quote .ed-rating, .ed-quote .ed-count { font-weight: 600; color: var(--primary-dark); font-style: normal; }
+.ed-quote cite { font-family: 'Inter', sans-serif; font-style: normal; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+
+.ed-contact { background: var(--ink); color: var(--cream); text-align: center; }
+.ed-contact .ed-section-title { color: var(--cream); margin: 0 auto 36px; }
+.ed-contact-phone { font-family: 'Fraunces', serif; font-size: clamp(38px, 5vw, 60px); display: inline-block; color: var(--cream); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid var(--cream); transition: color 0.2s ease, border-color 0.2s ease; }
+.ed-contact-phone:hover { color: var(--primary); border-color: var(--primary); }
+.ed-contact-addr { margin: 24px 0 0; font-size: 15px; color: var(--muted); }
+
+.mobile-cta { position: fixed; bottom: 14px; left: 14px; right: 14px; z-index: 60; background: var(--ink); color: var(--cream); font-weight: 600; text-align: center; padding: 16px; border-radius: 999px; text-decoration: none; box-shadow: 0 12px 30px rgba(0,0,0,0.18); font-family: 'Inter', sans-serif; letter-spacing: 0.02em; }
+@media (min-width: 720px) { .mobile-cta { display: none; } }
+
+.concept-footer { background: var(--cream); color: var(--muted); padding: 40px 20px 56px; text-align: center; font-size: 13px; border-top: 1px solid var(--line); }
+.concept-note { max-width: 560px; margin: 0 auto 10px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); font-size: 13px; background: var(--cream); }
+.concept-note a { color: var(--primary-dark); text-decoration: none; font-weight: 600; }
+.concept-note a:hover { text-decoration: underline; }
+
+
+.variant-switcher {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin: 24px auto 12px; max-width: 900px; padding: 0 20px;
+  font-size: 13px; color: #64748B;
+}
+.vs-label { font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px; }
+.vs-item { display: inline-block; padding: 8px 14px; border-radius: 999px; text-decoration: none; transition: all 0.2s ease; border: 1px solid #E2E8F0; color: #334155; background: #fff; }
+.vs-item:hover { background: #0B0F17; color: #fff; border-color: #0B0F17; transform: translateY(-1px); }
+.vs-current { background: #0B0F17; color: #fff; border-color: #0B0F17; font-weight: 700; cursor: default; pointer-events: none; }
+.vs-index { font-style: italic; }
+
+.variant-switcher { padding-top: 0; }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease-out, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal.delay-1 { transition-delay: 0.12s; }
+  .reveal.delay-2 { transition-delay: 0.24s; }
+  .reveal.delay-3 { transition-delay: 0.36s; }
+  .reveal.delay-4 { transition-delay: 0.48s; }
+  @keyframes heroGlow { 0%, 100% { opacity: 0.45; transform: scale(1); } 50% { opacity: 0.75; transform: scale(1.08); } }
+  @keyframes ctaPulse { 0%, 100% { box-shadow: 0 12px 30px rgba(0,0,0,0.2); } 50% { box-shadow: 0 16px 40px rgba(0,0,0,0.28), 0 0 0 8px rgba(255,255,255,0.06); } }
+  @keyframes fadeSlideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .hero-glow { animation: heroGlow 10s ease-in-out infinite; }
+  .mobile-cta { animation: ctaPulse 3.2s ease-in-out infinite; }
+  .fade-in-1 { animation: fadeSlideUp 0.8s ease-out 0.1s backwards; }
+  .fade-in-2 { animation: fadeSlideUp 0.8s ease-out 0.25s backwards; }
+  .fade-in-3 { animation: fadeSlideUp 0.8s ease-out 0.4s backwards; }
+  .fade-in-4 { animation: fadeSlideUp 0.8s ease-out 0.55s backwards; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+  .hero-glow, .mobile-cta, [class*='fade-in-'] { animation: none !important; }
+}
+
+</style>
+</head>
+<body>
+
+<nav class="ed-nav fade-in-1">
+  <div class="ed-nav-inner">
+    <div class="ed-brand">Cane Pest Control</div>
+    <a class="ed-nav-cta" href="tel:18059071483">Call (805) 907-1483</a>
+  </div>
+</nav>
+
+<header class="ed-hero">
+  <div class="ed-hero-inner">
+    <div>
+      <div class="ed-kicker fade-in-1">Encino, CA · Est. <em>Serving Locally</em></div>
+      <h1 class="ed-h1 fade-in-2">Your trusted pest control service in Encino</h1>
+      <p class="ed-lede fade-in-3">Quality work, honest pricing, and crews that show up when they say they will.</p>
+    </div>
+    <aside class="ed-aside fade-in-4">
+      <div class="ed-aside-label">The short version</div>
+      <p class="ed-aside-big">Licensed. Insured. Reliable.</p>
+      <a href="tel:18059071483">Get a free estimate →</a>
+    </aside>
+  </div>
+</header>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-section-label reveal">Our approach</div>
+    <h2 class="ed-section-title reveal delay-1">Four pillars that guide every job we take on.</h2>
+    <div class="ed-services">
+      
+        <div class="ed-service reveal delay-0">
+          <div class="ed-num">01</div>
+          <div class="ed-body">
+            <h3>Free Estimates</h3>
+            <p>Quick honest quotes with no surprises.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-1">
+          <div class="ed-num">02</div>
+          <div class="ed-body">
+            <h3>Licensed &amp; Insured</h3>
+            <p>Fully covered so your home is protected.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-2">
+          <div class="ed-num">03</div>
+          <div class="ed-body">
+            <h3>Local Crew</h3>
+            <p>Real people from your area, not a call center.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-3">
+          <div class="ed-num">04</div>
+          <div class="ed-body">
+            <h3>Guaranteed Work</h3>
+            <p>We stand behind every job, every time.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="ed-section ed-contact">
+  <div class="ed-container">
+    <div class="ed-section-label reveal" style="color: var(--primary)">Get in touch</div>
+    <h2 class="ed-section-title reveal delay-1">The easiest way to get a quote is a quick call.</h2>
+    <a class="ed-contact-phone reveal delay-2" href="tel:18059071483">(805) 907-1483</a>
+    <div class="ed-contact-addr">Pest control service · 6412 Penn St</div>
+  </div>
+</section>
+
+<a class="mobile-cta" href="tel:18059071483">Call (805) 907-1483</a>
+
+
+<footer class="concept-footer">
+  <div class="variant-switcher"><span class="vs-label">More concepts:</span><a class="vs-item" href="../bold/">Bold</a><span class="vs-item vs-current">Editorial</span><a class="vs-item" href="../energetic/">Energetic</a><a class="vs-item vs-index" href="../">Compare all</a></div>
+  <div class="concept-note">
+    This is a <strong>concept redesign</strong> built for Cane Pest Control by
+    <a href="https://landonscales.com" target="_blank" rel="noopener">Landon Scales</a>.
+    Like what you see? Text or call
+    <a href="tel:8054333205">(805) 433-3205</a>.
+  </div>
+  <div>© 2026 Cane Pest Control. Concept preview, not the official website.</div>
+</footer>
+
+
+
+<script>
+(function(){
+  if (!('IntersectionObserver' in window)) {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+})();
+</script>
+
+</body>
+</html>
