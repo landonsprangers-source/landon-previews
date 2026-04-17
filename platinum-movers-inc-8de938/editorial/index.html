@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Platinum Movers Inc · Website Concepts by Landon Scales</title>
+<meta name="description" content="A custom site concept built for Platinum Movers Inc in Goleta. By Landon Scales. Tap to explore on your phone." />
+<meta name="author" content="Landon Scales" />
+<meta name="theme-color" content="#F97316" />
+<link rel="canonical" href="https://landonsprangers-source.github.io/landon-previews/platinum-movers-inc-8de938/editorial/" />
+
+<meta property="og:site_name" content="Landon Scales" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Platinum Movers Inc · Website Design Concept" />
+<meta property="og:description" content="A custom site concept built for Platinum Movers Inc in Goleta. By Landon Scales. Tap to explore on your phone." />
+<meta property="og:url" content="https://landonsprangers-source.github.io/landon-previews/platinum-movers-inc-8de938/editorial/" />
+<meta property="og:image" content="https://landonsprangers-source.github.io/landon-previews/platinum-movers-inc-8de938/cover.svg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Platinum Movers Inc website concept by Landon Scales" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Platinum Movers Inc · Website Design Concept" />
+<meta name="twitter:description" content="A custom site concept built for Platinum Movers Inc in Goleta. By Landon Scales. Tap to explore on your phone." />
+<meta name="twitter:image" content="https://landonsprangers-source.github.io/landon-previews/platinum-movers-inc-8de938/cover.svg" />
+
+<meta name="apple-mobile-web-app-title" content="Platinum Movers Inc" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #F97316;
+  --primary-dark: #EA580C;
+  --ink: #14110F;
+  --cream: #FAF6F0;
+  --warm: #F0E8DB;
+  --line: #D9CEBE;
+  --muted: #7A6F5E;
+  --faq-line: #D9CEBE;
+  --faq-body: #7A6F5E;
+  --faq-accent: #EA580C;
+  --spot: rgba(212, 165, 71, 0.18);
+  --orb-a: rgba(212, 165, 71, 0.6);
+  --orb-b: rgba(240, 232, 219, 0.9);
+  --orb-c: rgba(186, 146, 99, 0.6);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); background: var(--cream); line-height: 1.65; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+a { color: inherit; }
+
+.ed-nav { position: sticky; top: 0; z-index: 50; padding: 22px 24px; background: rgba(250,246,240,0.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.ed-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.ed-brand { font-family: 'Fraunces', serif; font-weight: 600; letter-spacing: 0.01em; font-size: 22px; }
+.ed-nav-cta { border: 1px solid var(--ink); color: var(--ink); background: var(--cream); padding: 10px 18px; border-radius: 999px; text-decoration: none; font-size: 14px; font-weight: 500; transition: background 0.25s ease, color 0.25s ease; }
+.ed-nav-cta:hover { background: var(--ink); color: var(--cream); }
+
+/* Hero */
+.ed-hero { padding: 120px 24px 96px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; background: linear-gradient(180deg, var(--cream) 0%, var(--warm) 100%); }
+.ed-hero-inner { max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; display: grid; grid-template-columns: 1fr; gap: 36px; }
+@media (min-width: 900px) { .ed-hero-inner { grid-template-columns: 3fr 2fr; align-items: end; gap: 60px; } }
+.ed-kicker { text-transform: uppercase; letter-spacing: 0.24em; font-size: 12px; color: var(--muted); margin-bottom: 22px; }
+.ed-h1 { font-family: 'Fraunces', serif; font-size: clamp(48px, 8vw, 104px); line-height: 0.98; font-weight: 600; letter-spacing: -0.025em; margin: 0 0 26px; color: var(--ink); }
+.ed-h1 em { font-style: italic; color: var(--primary-dark); font-weight: 500; }
+.ed-lede { font-family: 'Fraunces', serif; font-size: clamp(19px, 2vw, 24px); line-height: 1.5; color: var(--muted); max-width: 520px; margin: 0; }
+.ed-aside { padding: 28px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px; max-width: 420px; }
+.ed-aside-label { text-transform: uppercase; letter-spacing: 0.24em; font-size: 11px; color: var(--muted); margin-bottom: 12px; }
+.ed-aside-big { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; line-height: 1.3; margin: 0 0 16px; }
+.ed-aside a { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); text-decoration: none; padding: 12px 22px; background: var(--primary); border-radius: 999px; font-weight: 600; transition: transform 0.2s ease, background 0.2s ease; }
+.ed-aside a:hover { transform: translateY(-2px); background: var(--primary-dark); }
+
+/* Marquee band */
+.ed-mq { padding: 20px 0; background: var(--ink); color: var(--cream); }
+
+/* Sections */
+.ed-section { padding: 100px 24px; border-bottom: 1px solid var(--line); }
+.ed-container { max-width: 1200px; margin: 0 auto; }
+.ed-s-label { text-transform: uppercase; letter-spacing: 0.24em; font-size: 12px; color: var(--muted); margin-bottom: 18px; }
+.ed-s-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(36px, 5vw, 64px); line-height: 1.05; letter-spacing: -0.025em; margin: 0 0 64px; max-width: 760px; }
+.ed-s-title em { font-style: italic; color: var(--primary-dark); font-weight: 500; }
+.ed-s-sub { color: var(--muted); font-size: 18px; max-width: 640px; margin: 0 0 40px; line-height: 1.6; }
+
+/* About */
+.ed-about { display: grid; grid-template-columns: 1fr; gap: 40px; align-items: start; }
+@media (min-width: 880px) { .ed-about { grid-template-columns: 3fr 2fr; gap: 80px; } }
+.ed-about-copy p { font-family: 'Fraunces', serif; font-size: clamp(22px, 2.2vw, 28px); font-weight: 400; line-height: 1.45; color: var(--ink); margin: 0; }
+.ed-about-copy p::first-letter { font-size: 1.8em; font-weight: 600; float: left; line-height: 0.9; padding: 4px 12px 0 0; color: var(--primary-dark); }
+.ed-about-facts { border-top: 1px solid var(--line); padding-top: 24px; }
+.ed-fact { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.ed-fact-k { text-transform: uppercase; letter-spacing: 0.16em; font-size: 11px; color: var(--muted); }
+.ed-fact-v { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 500; }
+
+/* Services numbered list */
+.ed-services { display: grid; grid-template-columns: 1fr; gap: 0; border-top: 1px solid var(--line); }
+.ed-service { display: grid; grid-template-columns: 80px 1fr; gap: 32px; padding: 36px 0; border-bottom: 1px solid var(--line); align-items: start; transition: padding-left 0.3s ease; }
+.ed-service:hover { padding-left: 16px; }
+.ed-num { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 400; color: var(--muted); line-height: 1; }
+.ed-body h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 28px; margin: 0 0 10px; letter-spacing: -0.01em; }
+.ed-body p { font-size: 17px; color: var(--muted); margin: 0; max-width: 620px; }
+
+/* Stats */
+.ed-stats { background: var(--warm); padding: 80px 24px; border-bottom: 1px solid var(--line); }
+.ed-stats-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
+@media (min-width: 720px) { .ed-stats-inner { grid-template-columns: repeat(4, 1fr); gap: 24px; } }
+.stat { text-align: center; }
+.stat-num { display: block; font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(40px, 5vw, 64px); color: var(--ink); letter-spacing: -0.02em; line-height: 1; }
+.stat-label { display: block; font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
+
+/* Process */
+.ed-steps { display: grid; grid-template-columns: 1fr; gap: 32px; }
+@media (min-width: 720px) { .ed-steps { grid-template-columns: repeat(4, 1fr); gap: 32px; } }
+.ed-step { padding-right: 20px; border-right: 1px solid var(--line); }
+.ed-step:last-child { border-right: none; }
+@media (max-width: 719px) { .ed-step { border-right: none; border-bottom: 1px solid var(--line); padding: 0 0 24px; } .ed-step:last-child { border-bottom: none; } }
+.ed-step-num { font-family: 'Fraunces', serif; font-size: 34px; font-weight: 400; color: var(--primary-dark); line-height: 1; margin-bottom: 16px; }
+.ed-step h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 22px; margin: 0 0 10px; }
+.ed-step p { margin: 0; font-size: 15px; color: var(--muted); }
+
+/* Gallery */
+.ed-gallery { padding-bottom: 20px; }
+.ed-g-card { background: var(--cream); border: 1px solid var(--line); }
+.ed-g-thumb { aspect-ratio: 3/4; position: relative; }
+.ed-g-thumb-1 { background: linear-gradient(135deg, var(--warm) 0%, var(--primary) 100%); }
+.ed-g-thumb-2 { background: linear-gradient(135deg, #E6D5C1 0%, var(--primary-dark) 100%); }
+.ed-g-thumb-3 { background: linear-gradient(135deg, var(--cream) 0%, #B89872 100%); }
+.ed-g-cap { padding: 20px 22px; font-family: 'Fraunces', serif; font-size: 17px; color: var(--ink); }
+.ed-g-num { color: var(--muted); font-weight: 500; margin-right: 8px; }
+
+/* Quotes grid */
+.ed-quotes { display: grid; grid-template-columns: 1fr; gap: 24px; }
+@media (min-width: 880px) { .ed-quotes { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
+.ed-quote { padding: 36px 32px; background: var(--cream); border: 1px solid var(--line); border-radius: 4px; transition: border-color 0.25s ease, transform 0.25s ease; }
+.ed-quote:hover { border-color: var(--primary-dark); transform: translateY(-2px); }
+.ed-q-stars { color: var(--primary-dark); font-size: 16px; letter-spacing: 4px; margin-bottom: 18px; }
+.ed-quote blockquote { font-family: 'Fraunces', serif; font-weight: 400; font-size: 19px; line-height: 1.45; margin: 0 0 18px; color: var(--ink); }
+.ed-quote figcaption { font-family: 'Inter', sans-serif; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-style: normal; }
+
+/* Contact */
+.ed-contact { background: var(--ink); color: var(--cream); text-align: center; border-bottom: none; }
+.ed-contact .ed-s-label { color: var(--primary); }
+.ed-contact .ed-s-title { color: var(--cream); margin: 0 auto 36px; font-size: clamp(40px, 5.5vw, 72px); }
+.ed-contact-phone { font-family: 'Fraunces', serif; font-size: clamp(40px, 5.5vw, 72px); display: inline-block; color: var(--cream); text-decoration: none; padding-bottom: 6px; border-bottom: 1px solid var(--cream); transition: color 0.2s ease, border-color 0.2s ease; }
+.ed-contact-phone:hover { color: var(--primary); border-color: var(--primary); }
+.ed-contact-addr { margin: 28px 0 0; font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(250,246,240,0.6); }
+
+/* FAQ */
+.ed-faq-wrap { max-width: 760px; margin: 0 auto; }
+.faq details summary { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; }
+
+/* Mobile CTA */
+.mobile-cta { position: fixed; bottom: 14px; left: 14px; right: 14px; z-index: 60; background: var(--ink); color: var(--cream); font-weight: 600; text-align: center; padding: 16px; border-radius: 999px; text-decoration: none; box-shadow: 0 12px 30px rgba(0,0,0,0.18); font-family: 'Inter', sans-serif; letter-spacing: 0.02em; }
+@media (min-width: 720px) { .mobile-cta { display: none; } }
+
+/* Footer */
+.concept-footer { background: var(--cream); color: var(--muted); padding: 40px 20px 56px; text-align: center; font-size: 13px; border-top: 1px solid var(--line); }
+.concept-note { max-width: 560px; margin: 0 auto 10px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); font-size: 13px; background: var(--cream); }
+.concept-note a { color: var(--primary-dark); text-decoration: none; font-weight: 600; }
+.concept-note a:hover { text-decoration: underline; }
+
+
+.variant-switcher { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 24px auto 12px; max-width: 900px; padding: 0 20px; font-size: 13px; color: #64748B; justify-content: center; }
+.vs-label { font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px; }
+.vs-item { display: inline-block; padding: 8px 14px; border-radius: 999px; text-decoration: none; transition: all 0.2s ease; border: 1px solid #E2E8F0; color: #334155; background: #fff; }
+.vs-item:hover { background: #0B0F17; color: #fff; border-color: #0B0F17; transform: translateY(-1px); }
+.vs-current { background: #0B0F17; color: #fff; border-color: #0B0F17; font-weight: 700; cursor: default; pointer-events: none; }
+.vs-index { font-style: italic; }
+
+
+
+/* Cursor spotlight: a soft radial gradient that follows the mouse.
+   Only active on pointer: fine devices. Desktop only, safe on mobile. */
+.spotlight { position: fixed; pointer-events: none; z-index: 9; inset: 0; opacity: 0; transition: opacity 0.35s ease; }
+.spotlight-active .spotlight { opacity: 1; }
+.spotlight::before { content: ''; position: absolute; width: 520px; height: 520px; left: var(--mx, 50%); top: var(--my, 50%); transform: translate(-50%, -50%); background: radial-gradient(circle, var(--spot, rgba(59,130,246,0.22)) 0%, transparent 65%); filter: blur(40px); }
+@media (hover: none) { .spotlight { display: none; } }
+@media (prefers-reduced-motion: reduce) { .spotlight { display: none; } }
+
+/* Floating ambient orbs — two to three large blurred radial gradients */
+.orbs { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.orb { position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.5; will-change: transform; }
+.orb-1 { width: 520px; height: 520px; left: -180px; top: -120px; background: radial-gradient(circle, var(--orb-a, #3b82f6) 0%, transparent 60%); animation: orbFloat 22s ease-in-out infinite; }
+.orb-2 { width: 440px; height: 440px; right: -150px; bottom: 20%; background: radial-gradient(circle, var(--orb-b, #8b5cf6) 0%, transparent 60%); animation: orbFloat 26s ease-in-out infinite 2s reverse; }
+.orb-3 { width: 360px; height: 360px; left: 35%; top: 55%; background: radial-gradient(circle, var(--orb-c, #06b6d4) 0%, transparent 60%); opacity: 0.35; animation: orbFloat 30s ease-in-out infinite 4s; }
+@keyframes orbFloat { 0%, 100% { transform: translate(0, 0) scale(1); } 33% { transform: translate(40px, -30px) scale(1.08); } 66% { transform: translate(-30px, 40px) scale(0.95); } }
+@media (prefers-reduced-motion: reduce) { .orb { animation: none !important; } }
+
+/* Subtle grain texture overlay */
+.noise { position: fixed; inset: 0; pointer-events: none; z-index: 8; opacity: 0.035; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* 80px subtle grid mask, fades at edges */
+.grid-overlay { position: absolute; inset: 0; pointer-events: none; opacity: 0.6;
+  background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: radial-gradient(ellipse at center, black 25%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 25%, transparent 70%);
+}
+
+/* Infinite horizontal marquee — trust bar / social proof ticker */
+.marquee { overflow: hidden; white-space: nowrap; position: relative; }
+.marquee::before, .marquee::after { content: ''; position: absolute; top: 0; bottom: 0; width: 64px; z-index: 2; pointer-events: none; }
+.marquee-track { display: inline-flex; gap: 48px; align-items: center; animation: marqueeSlide 32s linear infinite; will-change: transform; }
+.marquee-item { display: inline-flex; align-items: center; gap: 12px; font-size: 15px; letter-spacing: 0.02em; white-space: nowrap; }
+.marquee-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: 0.5; }
+@keyframes marqueeSlide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; flex-wrap: wrap; justify-content: center; } }
+
+/* Animated gradient text — used on key headlines */
+.gt { background: linear-gradient(90deg, var(--gt-a, #3b82f6), var(--gt-b, #8b5cf6), var(--gt-c, #06b6d4), var(--gt-a, #3b82f6)); background-size: 300% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: gtShift 8s ease infinite; }
+@keyframes gtShift { 0%, 100% { background-position: 0 50%; } 50% { background-position: 100% 50%; } }
+@media (prefers-reduced-motion: reduce) { .gt { animation: none; } }
+
+/* Magnetic button scaffold — JS handles the transform */
+.magnetic { display: inline-block; will-change: transform; transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.magnetic-inner { display: inline-flex; }
+
+/* Draggable horizontal gallery — touch + mouse */
+.drag-gallery { position: relative; margin: 0 -20px; padding: 0 20px; overflow: hidden; }
+.drag-track { display: flex; gap: 16px; cursor: grab; user-select: none; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: 12px; }
+.drag-track::-webkit-scrollbar { display: none; }
+.drag-track.is-dragging { cursor: grabbing; scroll-snap-type: none; }
+.drag-item { flex: 0 0 280px; scroll-snap-align: start; transition: transform 0.25s ease; }
+@media (min-width: 720px) { .drag-item { flex-basis: 340px; } }
+.drag-hint { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; opacity: 0.55; margin-top: 12px; }
+
+/* Count-up number styling */
+.counter { font-variant-numeric: tabular-nums; }
+
+/* FAQ accordion using details/summary */
+.faq { border-top: 1px solid var(--faq-line, #E5E7EB); }
+.faq details { border-bottom: 1px solid var(--faq-line, #E5E7EB); padding: 20px 0; }
+.faq summary { cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; list-style: none; font-weight: 600; font-size: 17px; transition: color 0.2s ease; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; font-size: 22px; line-height: 1; font-weight: 300; transition: transform 0.25s ease; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details[open] summary { color: var(--faq-accent, #3b82f6); }
+.faq .faq-body { padding: 12px 0 4px; color: var(--faq-body, #64748B); font-size: 15px; line-height: 1.6; max-width: 640px; }
+
+/* 3D tilt on service cards (JS-driven) */
+.tilt { transform-style: preserve-3d; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.tilt-shine { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at var(--shinex, 50%) var(--shiney, 50%), rgba(255,255,255,0.14) 0%, transparent 40%); opacity: 0; transition: opacity 0.3s ease; border-radius: inherit; }
+.tilt:hover .tilt-shine { opacity: 1; }
+@media (prefers-reduced-motion: reduce), (hover: none) { .tilt { transform: none !important; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal.delay-1 { transition-delay: 0.10s; }
+  .reveal.delay-2 { transition-delay: 0.22s; }
+  .reveal.delay-3 { transition-delay: 0.34s; }
+  .reveal.delay-4 { transition-delay: 0.46s; }
+  .reveal.delay-5 { transition-delay: 0.58s; }
+  @keyframes floatSoft { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-in-1 { animation: fadeUp 0.8s ease-out 0.1s backwards; }
+  .fade-in-2 { animation: fadeUp 0.8s ease-out 0.22s backwards; }
+  .fade-in-3 { animation: fadeUp 0.8s ease-out 0.34s backwards; }
+  .fade-in-4 { animation: fadeUp 0.8s ease-out 0.46s backwards; }
+  .fade-in-5 { animation: fadeUp 0.8s ease-out 0.58s backwards; }
+  @keyframes pulseBtn { 0%, 100% { box-shadow: 0 12px 30px rgba(0,0,0,0.2); } 50% { box-shadow: 0 16px 40px rgba(0,0,0,0.28), 0 0 0 6px rgba(255,255,255,0.06); } }
+  .mobile-cta { animation: pulseBtn 3.2s ease-in-out infinite; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+  [class*='fade-in-'], .mobile-cta, .orb, .marquee-track { animation: none !important; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="noise" style="opacity: 0.06"></div>
+<div class="spotlight"></div>
+
+<nav class="ed-nav fade-in-1">
+  <div class="ed-nav-inner">
+    <div class="ed-brand">Platinum Movers Inc</div>
+    <a class="ed-nav-cta" href="tel:18059440000">Call (805) 944-0000</a>
+  </div>
+</nav>
+
+<header class="ed-hero">
+  <div class="orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+  <div class="ed-hero-inner">
+    <div>
+      <div class="ed-kicker fade-in-1">Goleta, CA · Est. <em>Serving Locally</em></div>
+      <h1 class="ed-h1 fade-in-2">Your trusted moving company in Goleta<em>.</em></h1>
+      <p class="ed-lede fade-in-3">Quality work, honest pricing, and crews that show up when they say they will.</p>
+    </div>
+    <aside class="ed-aside fade-in-4">
+      <div class="ed-aside-label">The short version</div>
+      <p class="ed-aside-big">Licensed. Insured. Reliable.</p>
+      <a href="tel:18059440000" class="magnetic"><span class="magnetic-inner">Get a free estimate →</span></a>
+    </aside>
+  </div>
+</header>
+
+<div class="ed-mq"><div class="marquee"><div class="marquee-track" data-autoduplicate><span class="marquee-item"><span class="marquee-dot"></span>Licensed</span><span class="marquee-item"><span class="marquee-dot"></span>Insured</span><span class="marquee-item"><span class="marquee-dot"></span>5 star rated</span><span class="marquee-item"><span class="marquee-dot"></span>Locally owned</span><span class="marquee-item"><span class="marquee-dot"></span>Guaranteed work</span><span class="marquee-item"><span class="marquee-dot"></span>Family owned</span><span class="marquee-item"><span class="marquee-dot"></span>Free estimates</span></div></div></div>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">About us</div>
+    <h2 class="ed-s-title reveal delay-1">Built in Goleta, <em>for Goleta</em>.</h2>
+    <div class="ed-about">
+      <div class="ed-about-copy reveal delay-2"><p>Locally owned, licensed, and insured. We built this business on one promise: show up on time, do good work, and stand behind every job. Goleta has been our home from day one, and the people here are our neighbors, not just customers.</p></div>
+      <div class="ed-about-facts reveal delay-3">
+        <div class="ed-fact"><span class="ed-fact-k">Business</span><span class="ed-fact-v">Platinum Movers Inc</span></div>
+        <div class="ed-fact"><span class="ed-fact-k">Location</span><span class="ed-fact-v">Goleta, CA</span></div>
+        <div class="ed-fact"><span class="ed-fact-k">Phone</span><span class="ed-fact-v">(805) 944-0000</span></div>
+        <div class="ed-fact"><span class="ed-fact-k">Industry</span><span class="ed-fact-v">Moving Company</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">Our approach</div>
+    <h2 class="ed-s-title reveal delay-1">Four pillars <em>that guide every job.</em></h2>
+    <div class="ed-services">
+        <div class="ed-service reveal delay-0">
+          <div class="ed-num">01</div>
+          <div class="ed-body">
+            <h3>Free Estimates</h3>
+            <p>Quick honest quotes with no surprises.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-1">
+          <div class="ed-num">02</div>
+          <div class="ed-body">
+            <h3>Licensed &amp; Insured</h3>
+            <p>Fully covered so your home is protected.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-2">
+          <div class="ed-num">03</div>
+          <div class="ed-body">
+            <h3>Local Crew</h3>
+            <p>Real people from your area, not a call center.</p>
+          </div>
+        </div>
+        <div class="ed-service reveal delay-3">
+          <div class="ed-num">04</div>
+          <div class="ed-body">
+            <h3>Guaranteed Work</h3>
+            <p>We stand behind every job, every time.</p>
+          </div>
+        </div></div>
+  </div>
+</section>
+
+<section class="ed-stats">
+  <div class="ed-stats-inner">
+        <div class="stat reveal delay-0">
+          <span class="stat-num counter" data-target="4.9" data-decimals="1" data-suffix="">0</span>
+          <span class="stat-label">Avg rating</span>
+        </div>
+        <div class="stat reveal delay-1">
+          <span class="stat-num counter" data-target="500" data-decimals="0" data-suffix="+">0+</span>
+          <span class="stat-label">Happy customers</span>
+        </div>
+        <div class="stat reveal delay-2">
+          <span class="stat-num counter" data-target="98" data-decimals="0" data-suffix="%">0%</span>
+          <span class="stat-label">Would recommend</span>
+        </div>
+        <div class="stat reveal delay-3">
+          <span class="stat-num counter" data-target="10" data-decimals="0" data-suffix="+ yrs">0+ yrs</span>
+          <span class="stat-label">Serving locally</span>
+        </div></div>
+</section>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">How we work</div>
+    <h2 class="ed-s-title reveal delay-1">A simple process, <em>start to finish</em>.</h2>
+    <div class="ed-steps">
+        <div class="ed-step reveal delay-0">
+          <div class="ed-step-num">01</div>
+          <h3>Call or text</h3>
+          <p>Tell us what is going on. We ask a few questions so we know what to bring.</p>
+        </div>
+        <div class="ed-step reveal delay-1">
+          <div class="ed-step-num">02</div>
+          <h3>Free estimate</h3>
+          <p>We come out, look at the job, and give you a clear written quote.</p>
+        </div>
+        <div class="ed-step reveal delay-2">
+          <div class="ed-step-num">03</div>
+          <h3>We get to work</h3>
+          <p>Crew shows up on time, does the work right, cleans up after.</p>
+        </div>
+        <div class="ed-step reveal delay-3">
+          <div class="ed-step-num">04</div>
+          <h3>We stand behind it</h3>
+          <p>Workmanship guarantee. If something is not right, we come back.</p>
+        </div></div>
+  </div>
+</section>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">Selected work</div>
+    <h2 class="ed-s-title reveal delay-1">A glimpse of <em>what we do</em>.</h2>
+    <div class="drag-gallery ed-gallery">
+      <div class="drag-track reveal delay-2">
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-1"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">01</span> — Recent project</div>
+        </div>
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-2"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">02</span> — Before &amp; after</div>
+        </div>
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-3"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">03</span> — Behind the scenes</div>
+        </div>
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-1"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">04</span> — Customer favorite</div>
+        </div>
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-2"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">05</span> — Limited edition</div>
+        </div>
+        <div class="drag-item ed-g-card">
+          <div class="ed-g-thumb ed-g-thumb-3"></div>
+          <div class="ed-g-cap"><span class="ed-g-num">06</span> — New this season</div>
+        </div></div>
+      <div class="drag-hint">← Drag to browse →</div>
+    </div>
+  </div>
+</section>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">What clients say</div>
+    <h2 class="ed-s-title reveal delay-1">Voices <em>from the neighborhood</em>.</h2>
+    <div class="ed-quotes">
+        <figure class="ed-quote reveal delay-0">
+          <div class="ed-q-stars">★★★★★</div>
+          <blockquote>“Crew showed up on time, cleaned up after themselves, and the work came out great. Hard to find that these days.”</blockquote>
+          <figcaption>— Homeowner in Goleta</figcaption>
+        </figure>
+        <figure class="ed-quote reveal delay-1">
+          <div class="ed-q-stars">★★★★★</div>
+          <blockquote>“Had three quotes. Theirs was the most straightforward and the job finished when they said it would.”</blockquote>
+          <figcaption>— Local homeowner</figcaption>
+        </figure>
+        <figure class="ed-quote reveal delay-2">
+          <div class="ed-q-stars">★★★★★</div>
+          <blockquote>“They fixed something two other places gave up on. Respect.”</blockquote>
+          <figcaption>— Repeat customer</figcaption>
+        </figure></div>
+  </div>
+</section>
+
+<section class="ed-section">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">Common questions</div>
+    <h2 class="ed-s-title reveal delay-1">Good questions <em>deserve answers</em>.</h2>
+    <div class="ed-faq-wrap faq">
+        <details class="reveal delay-0"><summary>Do you offer free estimates?</summary><div class="faq-body">Yes. We come out, look at the job, and quote before any work starts. No pressure, no hidden fees.</div></details>
+        <details class="reveal delay-1"><summary>Are you licensed and insured?</summary><div class="faq-body">Fully licensed and insured in California. We can send proof before we show up if that helps.</div></details>
+        <details class="reveal delay-2"><summary>How soon can you start?</summary><div class="faq-body">Most jobs we can schedule within the week. Emergency work we prioritize same day when possible.</div></details>
+        <details class="reveal delay-3"><summary>What areas do you serve?</summary><div class="faq-body">We cover Goleta and the surrounding communities. Call us if you are further out and we will let you know.</div></details>
+        <details class="reveal delay-4"><summary>Do you back your work?</summary><div class="faq-body">Yes. Every job comes with a workmanship guarantee. If something is not right, we come back and fix it.</div></details></div>
+  </div>
+</section>
+
+<section id="contact" class="ed-section ed-contact">
+  <div class="ed-container">
+    <div class="ed-s-label reveal">Get in touch</div>
+    <h2 class="ed-s-title reveal delay-1">One call, and we <em>get to work</em>.</h2>
+    <a class="ed-contact-phone reveal delay-2 magnetic" href="tel:18059440000"><span class="magnetic-inner">(805) 944-0000</span></a>
+    <div class="ed-contact-addr reveal delay-3">(805) 944-0000</div>
+  </div>
+</section>
+
+<a class="mobile-cta" href="tel:18059440000">Call (805) 944-0000</a>
+
+
+<footer class="concept-footer">
+  <div class="variant-switcher"><span class="vs-label">More concepts:</span><a class="vs-item" href="../bold/">Bold</a><span class="vs-item vs-current">Editorial</span><a class="vs-item" href="../energetic/">Energetic</a><a class="vs-item vs-index" href="../">Compare all 3</a></div>
+  <div class="concept-note">
+    This is a <strong>concept redesign</strong> built for Platinum Movers Inc by
+    <a href="https://landonscales.com" target="_blank" rel="noopener">Landon Scales</a>.
+    Like what you see? Text or call
+    <a href="tel:8054333205">(805) 433-3205</a>.
+  </div>
+  <div>© 2026 Platinum Movers Inc. Concept preview, not the official website.</div>
+</footer>
+
+
+
+<script>
+(function(){
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Scroll reveal
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  }
+
+  // Cursor spotlight
+  if (!reduced && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.documentElement.classList.add('spotlight-active');
+    document.addEventListener('pointermove', (e)=>{
+      document.documentElement.style.setProperty('--mx', e.clientX + 'px');
+      document.documentElement.style.setProperty('--my', e.clientY + 'px');
+    });
+  }
+
+  // Marquee duplication (so it loops seamlessly)
+  document.querySelectorAll('.marquee-track[data-autoduplicate]').forEach(track => {
+    track.innerHTML = track.innerHTML + track.innerHTML;
+  });
+
+  // Count up
+  const counterIO = ('IntersectionObserver' in window) ? new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseFloat(el.getAttribute('data-target') || '0');
+      const decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
+      const suffix = el.getAttribute('data-suffix') || '';
+      const dur = parseInt(el.getAttribute('data-dur') || '1400', 10);
+      const start = performance.now();
+      function tick(now){
+        const t = Math.min(1, (now - start) / dur);
+        const eased = 1 - Math.pow(1 - t, 3);
+        const val = target * eased;
+        el.textContent = (decimals > 0 ? val.toFixed(decimals) : Math.round(val)) + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+      }
+      if (reduced) { el.textContent = (decimals > 0 ? target.toFixed(decimals) : Math.round(target)) + suffix; }
+      else { requestAnimationFrame(tick); }
+      counterIO.unobserve(el);
+    });
+  }, { threshold: 0.4 }) : null;
+  if (counterIO) document.querySelectorAll('.counter').forEach(el => counterIO.observe(el));
+
+  // Magnetic buttons
+  if (!reduced) {
+    document.querySelectorAll('.magnetic').forEach(btn => {
+      btn.addEventListener('pointermove', (e) => {
+        const r = btn.getBoundingClientRect();
+        const x = e.clientX - (r.left + r.width/2);
+        const y = e.clientY - (r.top + r.height/2);
+        btn.style.transform = `translate(${x*0.18}px, ${y*0.24}px)`;
+      });
+      btn.addEventListener('pointerleave', () => { btn.style.transform = ''; });
+    });
+  }
+
+  // Drag-to-scroll galleries
+  document.querySelectorAll('.drag-track').forEach(track => {
+    let down = false, startX = 0, startLeft = 0;
+    track.addEventListener('pointerdown', (e) => {
+      down = true; startX = e.clientX; startLeft = track.scrollLeft;
+      track.classList.add('is-dragging');
+      track.setPointerCapture && track.setPointerCapture(e.pointerId);
+    });
+    track.addEventListener('pointermove', (e) => {
+      if (!down) return;
+      track.scrollLeft = startLeft - (e.clientX - startX);
+    });
+    const end = () => { down = false; track.classList.remove('is-dragging'); };
+    track.addEventListener('pointerup', end);
+    track.addEventListener('pointercancel', end);
+    track.addEventListener('pointerleave', end);
+  });
+
+  // Tilt cards (3D)
+  if (!reduced && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.tilt').forEach(card => {
+      card.addEventListener('pointermove', (e) => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width;
+        const y = (e.clientY - r.top) / r.height;
+        const rx = (0.5 - y) * 8;
+        const ry = (x - 0.5) * 10;
+        card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(0)`;
+        card.style.setProperty('--shinex', (x * 100) + '%');
+        card.style.setProperty('--shiney', (y * 100) + '%');
+      });
+      card.addEventListener('pointerleave', () => {
+        card.style.transform = '';
+      });
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

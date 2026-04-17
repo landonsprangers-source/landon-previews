@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>M-I Drilling Fluids · Website Design by Landon Scales</title>
+<meta name="description" content="A custom site concept built for M-I Drilling Fluids in Westlake Village. By Landon Scales. Tap to explore on your phone." />
+<meta name="author" content="Landon Scales" />
+<meta name="theme-color" content="#F97316" />
+<link rel="canonical" href="https://landonsprangers-source.github.io/landon-previews/m-i-drilling-fluids-3e7865/" />
+
+<meta property="og:site_name" content="Landon Scales" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="M-I Drilling Fluids · Website Design Concept" />
+<meta property="og:description" content="A custom site concept built for M-I Drilling Fluids in Westlake Village. By Landon Scales. Tap to explore on your phone." />
+<meta property="og:url" content="https://landonsprangers-source.github.io/landon-previews/m-i-drilling-fluids-3e7865/" />
+<meta property="og:image" content="https://landonsprangers-source.github.io/landon-previews/m-i-drilling-fluids-3e7865/cover.svg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="M-I Drilling Fluids website concept by Landon Scales" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="M-I Drilling Fluids · Website Design Concept" />
+<meta name="twitter:description" content="A custom site concept built for M-I Drilling Fluids in Westlake Village. By Landon Scales. Tap to explore on your phone." />
+<meta name="twitter:image" content="https://landonsprangers-source.github.io/landon-previews/m-i-drilling-fluids-3e7865/cover.svg" />
+
+<meta name="apple-mobile-web-app-title" content="M-I Drilling Fluids" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #F97316;
+  --primary-dark: #EA580C;
+  --ink: #0a0a0f;
+  --ink-soft: #14141a;
+  --bg: #FAFAFA;
+  --card: #FFFFFF;
+  --line: #E5E7EB;
+  --muted: #64748B;
+  --spot: rgba(59,130,246,0.22);
+  --orb-a: #3b82f6;
+  --orb-b: #8b5cf6;
+  --orb-c: #06b6d4;
+  --gt-a: #3b82f6;
+  --gt-b: #8b5cf6;
+  --gt-c: #06b6d4;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #fff;
+  background:
+    radial-gradient(80% 50% at 50% 0%, rgba(255,255,255,0.04), transparent 60%),
+    radial-gradient(60% 40% at 15% 30%, #F9731618, transparent 55%),
+    radial-gradient(60% 40% at 85% 70%, #EA580C14, transparent 55%),
+    linear-gradient(180deg, #0a0a0f 0%, #0e0e18 55%, #06060a 100%);
+  background-attachment: fixed;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.pk-brandbar { position: sticky; top: 0; z-index: 60; display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; background: rgba(10,10,15,0.6); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.06); }
+.pk-brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+.pk-brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); box-shadow: 0 0 12px var(--primary); }
+.pk-brand-text { display: inline-flex; align-items: baseline; gap: 6px; }
+.pk-brand-text span { color: rgba(255,255,255,0.5); font-weight: 500; font-size: 13px; }
+.pk-brand-url { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 13px; font-weight: 500; letter-spacing: 0.01em; padding: 8px 14px; border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
+.pk-brand-url:hover { color: #fff; border-color: var(--primary); background: rgba(255,255,255,0.04); }
+@media (max-width: 560px) { .pk-brand-text span { display: none; } .pk-brand-url { padding: 7px 12px; } }
+
+.pk-hero { position: relative; padding: 80px 24px 40px; text-align: center; max-width: 980px; margin: 0 auto; overflow: hidden; isolation: isolate; }
+.pk-kicker { display: inline-flex; align-items: center; gap: 10px; padding: 10px 18px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); color: #fff; font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase; border-radius: 999px; margin-bottom: 30px; font-weight: 600; }
+.pk-kicker-dot { width: 6px; height: 6px; border-radius: 50%; background: #10b981; box-shadow: 0 0 8px #10b981; }
+.pk-h1 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(44px, 7vw, 84px); line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 24px; color: #fff; }
+.pk-h1 em { font-style: italic; }
+.pk-h1 em.gt { font-style: italic; }
+.pk-sub { font-size: clamp(17px, 1.9vw, 20px); color: rgba(255,255,255,0.7); max-width: 620px; margin: 0 auto 24px; }
+.pk-meta { font-size: 14px; color: rgba(255,255,255,0.55); display: inline-flex; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.pk-meta strong { color: #fff; font-weight: 600; }
+.pk-meta-sep { opacity: 0.4; }
+
+.pk-grid-wrap { position: relative; max-width: 1240px; margin: 40px auto 60px; padding: 20px; }
+.pk-grid-wrap::before { content: ''; position: absolute; inset: 0; background: radial-gradient(70% 60% at 50% 50%, rgba(255,255,255,0.025), transparent 70%); border-radius: 36px; pointer-events: none; z-index: 0; }
+.pk-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr; gap: 20px; padding: 0 4px; }
+@media (min-width: 880px) { .pk-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; } }
+
+.pk-card { position: relative; background: var(--card); border: 1px solid rgba(255,255,255,0.08); border-radius: 24px; overflow: hidden; text-decoration: none; color: #111; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease; display: flex; flex-direction: column; box-shadow: 0 20px 48px rgba(0,0,0,0.35), 0 1px 0 rgba(255,255,255,0.04) inset; }
+.pk-card:hover { transform: translateY(-6px); box-shadow: 0 36px 72px rgba(0,0,0,0.5), 0 0 0 1px var(--primary) inset; border-color: var(--primary); }
+
+.pk-thumb { height: 260px; position: relative; overflow: hidden; }
+.pk-thumb-bold { background: linear-gradient(135deg, #0B1A2B 0%, #14293F 60%, #1C3A5C 100%); color: #fff; padding: 24px; display: flex; flex-direction: column; justify-content: end; }
+.pk-thumb-bold::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 70% 30%, rgba(255,255,255,0.15), transparent 60%), radial-gradient(circle at 20% 80%, rgba(59,130,246,0.25), transparent 50%); }
+.pk-thumb-bold::after { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%); -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%); }
+.pk-thumb-bold-pill { position: relative; display: inline-block; margin-bottom: 12px; padding: 5px 10px; font-size: 10px; letter-spacing: 0.15em; border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; text-transform: uppercase; width: fit-content; font-weight: 600; }
+.pk-thumb-bold-title { position: relative; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.02; }
+
+.pk-thumb-editorial { background: linear-gradient(180deg, #FAF6F0 0%, #F0E8DB 100%); color: #14110F; padding: 24px; display: flex; flex-direction: column; justify-content: end; border-bottom: 1px solid #D9CEBE; }
+.pk-thumb-editorial-kicker { text-transform: uppercase; letter-spacing: 0.22em; font-size: 10px; color: #7A6F5E; margin-bottom: 10px; font-weight: 500; }
+.pk-thumb-editorial-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 34px; letter-spacing: -0.02em; line-height: 1; }
+.pk-thumb-editorial-title em { color: #EA580C; font-style: italic; }
+
+.pk-thumb-energetic { display: grid; grid-template-columns: 1.2fr 1fr; height: 260px; }
+.pk-thumb-en-l { background: linear-gradient(135deg, #0B1A2B 0%, #14293F 60%, #1C3A5C 100%); color: #fff; padding: 20px; display: flex; flex-direction: column; justify-content: end; position: relative; overflow: hidden; }
+.pk-thumb-en-l::after { content: ''; position: absolute; width: 160px; height: 160px; right: -40px; bottom: -40px; background: radial-gradient(circle, var(--primary) 0%, transparent 60%); opacity: 0.6; border-radius: 50%; filter: blur(10px); }
+.pk-thumb-en-l-title { position: relative; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.02em; line-height: 0.98; }
+.pk-thumb-en-l-title span { color: var(--primary); }
+.pk-thumb-en-r { background: var(--primary); color: #111; padding: 16px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; }
+.pk-thumb-en-r::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent 0, transparent 14px, rgba(0,0,0,0.06) 14px, rgba(0,0,0,0.06) 16px); }
+.pk-thumb-en-r-head { position: relative; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em; }
+.pk-thumb-en-r-phone { position: relative; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: -0.01em; }
+
+.pk-body { padding: 28px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+.pk-variant { display: inline-flex; gap: 8px; align-items: center; font-size: 11px; color: var(--muted); letter-spacing: 0.16em; text-transform: uppercase; font-weight: 700; }
+.pk-variant-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--primary); }
+.pk-body h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 26px; margin: 0; letter-spacing: -0.01em; color: #111; }
+.pk-body p { margin: 0; color: var(--muted); font-size: 15px; flex: 1; line-height: 1.55; }
+.pk-explore { display: inline-flex; align-items: center; gap: 8px; margin-top: 12px; color: #111; font-weight: 600; font-size: 15px; }
+.pk-explore span { transition: transform 0.2s ease; }
+.pk-card:hover .pk-explore span { transform: translateX(4px); }
+
+.pk-closer { max-width: 860px; margin: 0 auto 80px; padding: 60px 24px 0; text-align: center; }
+.pk-closer h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: clamp(28px, 3.5vw, 46px); letter-spacing: -0.02em; margin: 0 0 16px; color: #fff; }
+.pk-closer p { color: rgba(255,255,255,0.65); margin: 0 0 28px; max-width: 560px; margin-left: auto; margin-right: auto; }
+.pk-closer-cta { display: inline-flex; align-items: center; gap: 10px; padding: 16px 28px; background: var(--primary); color: #000; font-weight: 700; border-radius: 999px; text-decoration: none; transition: transform 0.15s ease, background 0.2s ease; }
+.pk-closer-cta:hover { background: var(--primary-dark); transform: translateY(-2px); }
+
+.concept-footer { background: #06060a; color: rgba(255,255,255,0.55); padding: 40px 20px 56px; text-align: center; font-size: 13px; border-top: 1px solid rgba(255,255,255,0.08); }
+.concept-note { max-width: 560px; margin: 0 auto 10px; padding: 14px 18px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; color: #CBD5E1; font-size: 13px; }
+.concept-note a { color: var(--primary); text-decoration: none; font-weight: 700; }
+
+
+/* Cursor spotlight: a soft radial gradient that follows the mouse.
+   Only active on pointer: fine devices. Desktop only, safe on mobile. */
+.spotlight { position: fixed; pointer-events: none; z-index: 9; inset: 0; opacity: 0; transition: opacity 0.35s ease; }
+.spotlight-active .spotlight { opacity: 1; }
+.spotlight::before { content: ''; position: absolute; width: 520px; height: 520px; left: var(--mx, 50%); top: var(--my, 50%); transform: translate(-50%, -50%); background: radial-gradient(circle, var(--spot, rgba(59,130,246,0.22)) 0%, transparent 65%); filter: blur(40px); }
+@media (hover: none) { .spotlight { display: none; } }
+@media (prefers-reduced-motion: reduce) { .spotlight { display: none; } }
+
+/* Floating ambient orbs — two to three large blurred radial gradients */
+.orbs { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.orb { position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.5; will-change: transform; }
+.orb-1 { width: 520px; height: 520px; left: -180px; top: -120px; background: radial-gradient(circle, var(--orb-a, #3b82f6) 0%, transparent 60%); animation: orbFloat 22s ease-in-out infinite; }
+.orb-2 { width: 440px; height: 440px; right: -150px; bottom: 20%; background: radial-gradient(circle, var(--orb-b, #8b5cf6) 0%, transparent 60%); animation: orbFloat 26s ease-in-out infinite 2s reverse; }
+.orb-3 { width: 360px; height: 360px; left: 35%; top: 55%; background: radial-gradient(circle, var(--orb-c, #06b6d4) 0%, transparent 60%); opacity: 0.35; animation: orbFloat 30s ease-in-out infinite 4s; }
+@keyframes orbFloat { 0%, 100% { transform: translate(0, 0) scale(1); } 33% { transform: translate(40px, -30px) scale(1.08); } 66% { transform: translate(-30px, 40px) scale(0.95); } }
+@media (prefers-reduced-motion: reduce) { .orb { animation: none !important; } }
+
+/* Subtle grain texture overlay */
+.noise { position: fixed; inset: 0; pointer-events: none; z-index: 8; opacity: 0.035; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* 80px subtle grid mask, fades at edges */
+.grid-overlay { position: absolute; inset: 0; pointer-events: none; opacity: 0.6;
+  background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: radial-gradient(ellipse at center, black 25%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 25%, transparent 70%);
+}
+
+/* Infinite horizontal marquee — trust bar / social proof ticker */
+.marquee { overflow: hidden; white-space: nowrap; position: relative; }
+.marquee::before, .marquee::after { content: ''; position: absolute; top: 0; bottom: 0; width: 64px; z-index: 2; pointer-events: none; }
+.marquee-track { display: inline-flex; gap: 48px; align-items: center; animation: marqueeSlide 32s linear infinite; will-change: transform; }
+.marquee-item { display: inline-flex; align-items: center; gap: 12px; font-size: 15px; letter-spacing: 0.02em; white-space: nowrap; }
+.marquee-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: 0.5; }
+@keyframes marqueeSlide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; flex-wrap: wrap; justify-content: center; } }
+
+/* Animated gradient text — used on key headlines */
+.gt { background: linear-gradient(90deg, var(--gt-a, #3b82f6), var(--gt-b, #8b5cf6), var(--gt-c, #06b6d4), var(--gt-a, #3b82f6)); background-size: 300% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: gtShift 8s ease infinite; }
+@keyframes gtShift { 0%, 100% { background-position: 0 50%; } 50% { background-position: 100% 50%; } }
+@media (prefers-reduced-motion: reduce) { .gt { animation: none; } }
+
+/* Magnetic button scaffold — JS handles the transform */
+.magnetic { display: inline-block; will-change: transform; transition: transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.magnetic-inner { display: inline-flex; }
+
+/* Draggable horizontal gallery — touch + mouse */
+.drag-gallery { position: relative; margin: 0 -20px; padding: 0 20px; overflow: hidden; }
+.drag-track { display: flex; gap: 16px; cursor: grab; user-select: none; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: 12px; }
+.drag-track::-webkit-scrollbar { display: none; }
+.drag-track.is-dragging { cursor: grabbing; scroll-snap-type: none; }
+.drag-item { flex: 0 0 280px; scroll-snap-align: start; transition: transform 0.25s ease; }
+@media (min-width: 720px) { .drag-item { flex-basis: 340px; } }
+.drag-hint { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; opacity: 0.55; margin-top: 12px; }
+
+/* Count-up number styling */
+.counter { font-variant-numeric: tabular-nums; }
+
+/* FAQ accordion using details/summary */
+.faq { border-top: 1px solid var(--faq-line, #E5E7EB); }
+.faq details { border-bottom: 1px solid var(--faq-line, #E5E7EB); padding: 20px 0; }
+.faq summary { cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; list-style: none; font-weight: 600; font-size: 17px; transition: color 0.2s ease; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; font-size: 22px; line-height: 1; font-weight: 300; transition: transform 0.25s ease; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details[open] summary { color: var(--faq-accent, #3b82f6); }
+.faq .faq-body { padding: 12px 0 4px; color: var(--faq-body, #64748B); font-size: 15px; line-height: 1.6; max-width: 640px; }
+
+/* 3D tilt on service cards (JS-driven) */
+.tilt { transform-style: preserve-3d; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.tilt-shine { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at var(--shinex, 50%) var(--shiney, 50%), rgba(255,255,255,0.14) 0%, transparent 40%); opacity: 0; transition: opacity 0.3s ease; border-radius: inherit; }
+.tilt:hover .tilt-shine { opacity: 1; }
+@media (prefers-reduced-motion: reduce), (hover: none) { .tilt { transform: none !important; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal.delay-1 { transition-delay: 0.10s; }
+  .reveal.delay-2 { transition-delay: 0.22s; }
+  .reveal.delay-3 { transition-delay: 0.34s; }
+  .reveal.delay-4 { transition-delay: 0.46s; }
+  .reveal.delay-5 { transition-delay: 0.58s; }
+  @keyframes floatSoft { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .fade-in-1 { animation: fadeUp 0.8s ease-out 0.1s backwards; }
+  .fade-in-2 { animation: fadeUp 0.8s ease-out 0.22s backwards; }
+  .fade-in-3 { animation: fadeUp 0.8s ease-out 0.34s backwards; }
+  .fade-in-4 { animation: fadeUp 0.8s ease-out 0.46s backwards; }
+  .fade-in-5 { animation: fadeUp 0.8s ease-out 0.58s backwards; }
+  @keyframes pulseBtn { 0%, 100% { box-shadow: 0 12px 30px rgba(0,0,0,0.2); } 50% { box-shadow: 0 16px 40px rgba(0,0,0,0.28), 0 0 0 6px rgba(255,255,255,0.06); } }
+  .mobile-cta { animation: pulseBtn 3.2s ease-in-out infinite; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+  [class*='fade-in-'], .mobile-cta, .orb, .marquee-track { animation: none !important; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="spotlight"></div>
+
+<nav class="pk-brandbar">
+  <a class="pk-brand" href="https://landonscales.com" target="_blank" rel="noopener">
+    <span class="pk-brand-dot"></span>
+    <span class="pk-brand-text">Landon Scales <span>· Design + Marketing</span></span>
+  </a>
+  <a class="pk-brand-url" href="https://landonscales.com" target="_blank" rel="noopener">landonscales.com →</a>
+</nav>
+
+<header class="pk-hero">
+  <div class="orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div></div>
+  <div class="grid-overlay"></div>
+  <span class="pk-kicker fade-in-1"><span class="pk-kicker-dot"></span> 3 concepts · for M-I Drilling Fluids</span>
+  <h1 class="pk-h1 fade-in-2">Three directions. <em class="gt">One you.</em></h1>
+  <p class="pk-sub fade-in-3">I built three complete design concepts for M-I Drilling Fluids so you can pick the feel that fits. Drag, tap, and explore on your phone.</p>
+  <div class="pk-meta fade-in-4">
+    <strong>M-I Drilling Fluids</strong>
+    <span class="pk-meta-sep">·</span>
+    <span>Westlake Village, CA</span>
+    <span class="pk-meta-sep">·</span>
+    <span>(805) 487-6391</span>
+  </div>
+</header>
+
+<section class="pk-grid-wrap">
+<div class="pk-grid">
+  <a class="pk-card tilt reveal delay-1" href="bold/">
+    <div class="tilt-shine"></div>
+    <div class="pk-thumb pk-thumb-bold">
+      <span class="pk-thumb-bold-pill">Licensed. Insured. Relia</span>
+      <div class="pk-thumb-bold-title">Superior Drilling Fluids, Premium Results</div>
+    </div>
+    <div class="pk-body">
+      <div class="pk-variant"><span class="pk-variant-dot"></span> Option A · Bold</div>
+      <h2>Dark, confident, modern.</h2>
+      <p>Giant typography, floating orbs, animated gradient text, magnetic buttons, cursor spotlight. The "we mean business" direction.</p>
+      <span class="pk-explore">Explore concept A <span>→</span></span>
+    </div>
+  </a>
+
+  <a class="pk-card tilt reveal delay-2" href="editorial/">
+    <div class="tilt-shine"></div>
+    <div class="pk-thumb pk-thumb-editorial">
+      <div class="pk-thumb-editorial-kicker">Westlake Village, CA · Est.</div>
+      <div class="pk-thumb-editorial-title">Superior Drilling Fluids, Premium Result<em>.</em></div>
+    </div>
+    <div class="pk-body">
+      <div class="pk-variant"><span class="pk-variant-dot"></span> Option B · Editorial</div>
+      <h2>Refined, established, magazine.</h2>
+      <p>Fraunces serif, warm cream palette, drop caps, numbered services, elegant testimonials. The "family-owned, built to last" direction.</p>
+      <span class="pk-explore">Explore concept B <span>→</span></span>
+    </div>
+  </a>
+
+  <a class="pk-card tilt reveal delay-3" href="energetic/">
+    <div class="tilt-shine"></div>
+    <div class="pk-thumb pk-thumb-energetic">
+      <div class="pk-thumb-en-l">
+        <div class="pk-thumb-en-l-title">Superior<br><span>Drilling Fluids, Premium</span></div>
+      </div>
+      <div class="pk-thumb-en-r">
+        <div class="pk-thumb-en-r-head">Call now</div>
+        <div class="pk-thumb-en-r-phone">(805) 487-6391</div>
+      </div>
+    </div>
+    <div class="pk-body">
+      <div class="pk-variant"><span class="pk-variant-dot"></span> Option C · Energetic</div>
+      <h2>Split hero, bright, playful.</h2>
+      <p>Bold color blocks, 3D tilt cards, swipeable galleries, 4-step process timeline, diagonal stripes. The "local but we move fast" direction.</p>
+      <span class="pk-explore">Explore concept C <span>→</span></span>
+    </div>
+  </a>
+</div>
+</section>
+
+<div class="pk-closer">
+  <h3 class="reveal">Text me your favorite letter.</h3>
+  <p class="reveal delay-1">A, B, or C. Or message me if you want something completely different. Happy to keep iterating until it feels right.</p>
+  <a class="pk-closer-cta magnetic reveal delay-2" href="sms:8054333205"><span class="magnetic-inner">Text Landon →</span></a>
+</div>
+
+
+<footer class="concept-footer">
+  
+  <div class="concept-note">
+    This is a <strong>concept redesign</strong> built for M-I Drilling Fluids by
+    <a href="https://landonscales.com" target="_blank" rel="noopener">Landon Scales</a>.
+    Like what you see? Text or call
+    <a href="tel:8054333205">(805) 433-3205</a>.
+  </div>
+  <div>© 2026 M-I Drilling Fluids. Concept preview, not the official website.</div>
+</footer>
+
+
+
+<script>
+(function(){
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Scroll reveal
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+  }
+
+  // Cursor spotlight
+  if (!reduced && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.documentElement.classList.add('spotlight-active');
+    document.addEventListener('pointermove', (e)=>{
+      document.documentElement.style.setProperty('--mx', e.clientX + 'px');
+      document.documentElement.style.setProperty('--my', e.clientY + 'px');
+    });
+  }
+
+  // Marquee duplication (so it loops seamlessly)
+  document.querySelectorAll('.marquee-track[data-autoduplicate]').forEach(track => {
+    track.innerHTML = track.innerHTML + track.innerHTML;
+  });
+
+  // Count up
+  const counterIO = ('IntersectionObserver' in window) ? new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target;
+      const target = parseFloat(el.getAttribute('data-target') || '0');
+      const decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);
+      const suffix = el.getAttribute('data-suffix') || '';
+      const dur = parseInt(el.getAttribute('data-dur') || '1400', 10);
+      const start = performance.now();
+      function tick(now){
+        const t = Math.min(1, (now - start) / dur);
+        const eased = 1 - Math.pow(1 - t, 3);
+        const val = target * eased;
+        el.textContent = (decimals > 0 ? val.toFixed(decimals) : Math.round(val)) + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+      }
+      if (reduced) { el.textContent = (decimals > 0 ? target.toFixed(decimals) : Math.round(target)) + suffix; }
+      else { requestAnimationFrame(tick); }
+      counterIO.unobserve(el);
+    });
+  }, { threshold: 0.4 }) : null;
+  if (counterIO) document.querySelectorAll('.counter').forEach(el => counterIO.observe(el));
+
+  // Magnetic buttons
+  if (!reduced) {
+    document.querySelectorAll('.magnetic').forEach(btn => {
+      btn.addEventListener('pointermove', (e) => {
+        const r = btn.getBoundingClientRect();
+        const x = e.clientX - (r.left + r.width/2);
+        const y = e.clientY - (r.top + r.height/2);
+        btn.style.transform = `translate(${x*0.18}px, ${y*0.24}px)`;
+      });
+      btn.addEventListener('pointerleave', () => { btn.style.transform = ''; });
+    });
+  }
+
+  // Drag-to-scroll galleries
+  document.querySelectorAll('.drag-track').forEach(track => {
+    let down = false, startX = 0, startLeft = 0;
+    track.addEventListener('pointerdown', (e) => {
+      down = true; startX = e.clientX; startLeft = track.scrollLeft;
+      track.classList.add('is-dragging');
+      track.setPointerCapture && track.setPointerCapture(e.pointerId);
+    });
+    track.addEventListener('pointermove', (e) => {
+      if (!down) return;
+      track.scrollLeft = startLeft - (e.clientX - startX);
+    });
+    const end = () => { down = false; track.classList.remove('is-dragging'); };
+    track.addEventListener('pointerup', end);
+    track.addEventListener('pointercancel', end);
+    track.addEventListener('pointerleave', end);
+  });
+
+  // Tilt cards (3D)
+  if (!reduced && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.querySelectorAll('.tilt').forEach(card => {
+      card.addEventListener('pointermove', (e) => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width;
+        const y = (e.clientY - r.top) / r.height;
+        const rx = (0.5 - y) * 8;
+        const ry = (x - 0.5) * 10;
+        card.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(0)`;
+        card.style.setProperty('--shinex', (x * 100) + '%');
+        card.style.setProperty('--shiney', (y * 100) + '%');
+      });
+      card.addEventListener('pointerleave', () => {
+        card.style.transform = '';
+      });
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

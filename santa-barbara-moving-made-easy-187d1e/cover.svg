@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="55%" stop-color="#0c1024"/>
+      <stop offset="100%" stop-color="#10082a"/>
+    </linearGradient>
+    <radialGradient id="orbBlue" cx="15%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPurple" cx="85%" cy="75%" r="40%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="txtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="thumbA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="thumbB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#E6D5C1"/>
+    </linearGradient>
+    <linearGradient id="thumbC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1A2B"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#orbBlue)"/>
+  <rect width="1200" height="630" fill="url(#orbPurple)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+    <path d="M0 157 H1200 M0 314 H1200 M0 471 H1200 M300 0 V630 M600 0 V630 M900 0 V630"/>
+  </g>
+
+  <!-- Concept pill (top-left) -->
+  <g transform="translate(72 80)">
+    <rect rx="22" ry="22" width="240" height="44" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="22" cy="22" r="5" fill="#10b981"/>
+    <text x="40" y="28" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#ffffff">3 WEBSITE CONCEPTS</text>
+  </g>
+
+  <!-- Business name (big) -->
+  <text x="72" y="230" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#ffffff">Santa Barbara Moving Made …</text>
+
+  <!-- Subheading (gradient) -->
+  <text x="72" y="300" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="500" fill="url(#txtGrad)">Website concepts · Goleta</text>
+
+  <!-- Long divider -->
+  <rect x="72" y="340" width="80" height="3" rx="1.5" fill="#F97316"/>
+
+  <!-- Three concept thumbnails -->
+  <g transform="translate(72 390)">
+    <rect x="0"   y="0" width="170" height="200" rx="14" fill="url(#thumbA)"/>
+    <text x="16" y="30" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="rgba(255,255,255,0.85)">BOLD</text>
+    <text x="16" y="180" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">A</text>
+
+    <rect x="190" y="0" width="170" height="200" rx="14" fill="url(#thumbB)"/>
+    <text x="206" y="30" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#7A6F5E">EDITORIAL</text>
+    <text x="206" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" font-weight="600" fill="#14110F">B</text>
+
+    <rect x="380" y="0" width="170" height="200" rx="14" fill="url(#thumbC)"/>
+    <text x="396" y="30" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="rgba(255,255,255,0.9)">ENERGETIC</text>
+    <text x="396" y="180" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff">C</text>
+  </g>
+
+  <!-- By Landon Scales (bottom right) -->
+  <g transform="translate(820 390)">
+    <text x="0" y="18" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="rgba(255,255,255,0.5)">DESIGNED BY</text>
+    <text x="0" y="62" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Landon Scales</text>
+    <rect x="0" y="80" width="50" height="3" rx="1.5" fill="#F97316"/>
+    <text x="0" y="120" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.7)">Tap to preview on your phone</text>
+    <text x="0" y="150" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#F97316" font-weight="500">landonscales.com</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="595" width="1200" height="35" fill="rgba(0,0,0,0.4)"/>
+  <text x="72" y="618" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.55)" letter-spacing="2">CONCEPT PREVIEW · NOT A LIVE SITE</text>
+  <text x="1128" y="618" text-anchor="end" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.55)" letter-spacing="2">A · B · C</text>
+</svg>
